@@ -1,0 +1,3462 @@
+{
+  "command": [
+    {
+      "name": "кошсундук",
+      "actions": [
+        {
+          "name": "рандсундук",
+          "category": "Variable",
+          "type": "Generate Random Number",
+          "varname": "sunduk",
+          "min": "1",
+          "max": "10",
+          "savevartype": "temp"
+        },
+        {
+          "name": "1 обыч",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "1 об",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "** <@${dbsVars.CommandAuthor.id}>, тебе выпал обычный кот!**",
+              "thumbnail": "",
+              "image": "https://www.meme-arsenal.com/memes/8a61eb276dc5c58c32d6ab8a38b1d122.jpg",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "1"
+        },
+        {
+          "name": "2 обыч",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "2 об",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**Обычный кот! Удачи в следующий раз, <@${dbsVars.CommandAuthor.id}> !**",
+              "thumbnail": "",
+              "image": "https://avatars.mds.yandex.net/get-zen_doc/1594475/pub_5d8cd4d46f5f6f00b1c843c3_5d8cd7282f1e4400ad03d2dd/scale_1200",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "2"
+        },
+        {
+          "name": "3 обыч",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "3 об",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**Нуу, <@${dbsVars.CommandAuthor.id}>, обычный кот)**",
+              "thumbnail": "",
+              "image": "https://cs4.pikabu.ru/post_img/2016/01/11/12/og_og_145254280424293106.jpg",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "3"
+        },
+        {
+          "name": "4 ред",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "4 редк",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**Редкий кот! Неплохо, <@${dbsVars.CommandAuthor.id}>!**",
+              "thumbnail": "",
+              "image": "https://www.dailydot.com/wp-content/uploads/2018/10/olli-the-polite-cat-1024x512.jpg",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "4"
+        },
+        {
+          "name": "5 ред",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "5 редк",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**<@${dbsVars.CommandAuthor.id}>, тебе выпал редкий кот!**",
+              "thumbnail": "",
+              "image": "https://bugaga.ru/uploads/posts/2016-12/1481556556_kot-volshebnik-1.jpg",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "5"
+        },
+        {
+          "name": "6 редк",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "6 ред",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**Неплохо, <@${dbsVars.CommandAuthor.id}>! Редкий кот!**",
+              "thumbnail": "",
+              "image": "https://i.ytimg.com/vi/1tUC01DWTLE/maxresdefault.jpg",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "6"
+        },
+        {
+          "name": "7 ред",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "7 редк",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**<@${dbsVars.CommandAuthor.id}>, выпал редкий кот! Неплохо, но можно лучше!)**",
+              "thumbnail": "",
+              "image": "https://pbs.twimg.com/media/DuImSbuWwAAYjS6.jpg",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "7"
+        },
+        {
+          "name": "8 эпик",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "8 эп",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**ЭПИЧЕСКИЙ! Хорошая работа, <@${dbsVars.CommandAuthor.id}>!**",
+              "thumbnail": "",
+              "image": "https://i.pinimg.com/736x/67/63/87/676387a7d25d272814aed19c61b2af7e.jpg",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "8"
+        },
+        {
+          "name": "9 эпик",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "9 эп",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**<@${dbsVars.CommandAuthor.id}>, представляешь, ЭПИЧЕСКИЙ кот!**",
+              "thumbnail": "",
+              "image": "https://im0-tub-ru.yandex.net/i?id=ec0e3d44130fc11a4a916217ee67f61e&ref=rim&n=33&w=163&h=150",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "9"
+        },
+        {
+          "name": "10лега",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "10 ле",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "***ТЫ ЧТО, ВОЛШЕБНИК? <@${dbsVars.CommandAuthor.id}>, ТЕБЕ ВЫПАЛ ЛЕГЕНДАРНЫЙ ЪУЪ!***",
+              "thumbnail": "",
+              "image": "https://i.ytimg.com/vi/gwWtb_C6Hm0/maxresdefault.jpg",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "varname": "sunduk",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "name": "драка",
+      "perms": [],
+      "actions": [
+        {
+          "name": "ва",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "draka",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "нет польз",
+          "category": "Message",
+          "type": "if arguments are none",
+          "mes": "Отметьте пользователя, чтобы начать драку!"
+        },
+        {
+          "name": "гиф",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**<@${dbsVars.CommandAuthor.id}> полез в драку с <@${tempVars.draka.id}>!**",
+          "thumbnail": "",
+          "image": "https://pa1.narvii.com/7421/ceb5945b014e67b3ce2afce561457de2495bbb56r1-540-303_hq.gif",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "ранд",
+      "perms": [],
+      "actions": [
+        {
+          "name": "1 после команды",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "1per",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "1"
+        },
+        {
+          "name": "2 после к",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "2per",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "2"
+        },
+        {
+          "name": "рандц",
+          "category": "Variable",
+          "type": "Generate Random Number",
+          "varname": "rand",
+          "min": "${tempVars.1per}",
+          "max": "${tempVars.2per}",
+          "savevartype": "temp"
+        },
+        {
+          "name": "месс",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**<@${dbsVars.CommandAuthor.id}>, ваше число ${tempVars.rand}!**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "жалоба",
+      "perms": [
+        "👑",
+        "💎",
+        "📛・модерация"
+      ],
+      "actions": [
+        {
+          "name": "кулдаун 5сек",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "3",
+          "msg1": "❌Подождите 3 секунды, прежде чем писать снова",
+          "msg2": ""
+        },
+        {
+          "name": "zalob",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "zalob1",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": ";fkj, j,o",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**Жалоба на пользователя <@${tempVars.zalob1.id}> отправлена успешно!**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил жалобу: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "сенд в канал мод",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "776037052672114688",
+          "color": "8F2B74",
+          "title": "**Жалоба на пользователя!**",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**<@&776081360522838057>,  на пользователя <@${tempVars.zalob1.id}> поступила жалоба с канала <#${dbsVars.CommandChannel.id}>!**\n\n*Автор жалобы: <@${dbsVars.CommandAuthor.id}>*\n",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запрошено: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "голосование",
+      "perms": [],
+      "actions": [
+        {
+          "name": "вв",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "golosovanie",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "нет текста",
+          "category": "Message",
+          "type": "if arguments are none",
+          "mes": "Вы должны написать текст голосование, напрмер: *`!!голосование Любишь суши?`*"
+        },
+        {
+          "name": "ввв",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "**${tempVars.golosovanie}**",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "golosovanie1",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "вввв",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "✅": [],
+            "❌": []
+          },
+          "message": "${tempVars.golosovanie1.id}",
+          "duration": "180",
+          "reactionemoji": "emojigolos",
+          "reactionuser": "usergolos",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "кик",
+      "perms": [
+        "🔑",
+        "🛠️",
+        "🔮"
+      ],
+      "actions": [
+        {
+          "name": "reklfey",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "10",
+          "msg1": "кикать пользователя, с помощью команды, возможно только 1 раз в 10 секунд!",
+          "msg2": ""
+        },
+        {
+          "name": "нельзя",
+          "category": "Message",
+          "type": "if arguments are none",
+          "mes": "Команда введена неверно, пример *`!!кик @midref 3.1`*"
+        },
+        {
+          "name": "вы",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "mkik",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "нельзя_1",
+          "category": "Message",
+          "type": "if arguments are none",
+          "mes": "Команда введена неверно, пример *`!!кик @midref 3.1`*"
+        },
+        {
+          "name": "выв",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "reasonkik",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "2"
+        },
+        {
+          "name": "кик1",
+          "category": "User Action",
+          "type": "Kick User",
+          "user": "${tempVars.mkik.id}",
+          "reason": "${tempVars.reasonkik}"
+        },
+        {
+          "name": "аава",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${tempVars.mkik.user.dmChannel}",
+          "color": "BD0000",
+          "title": "🚫",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "*Вы были кикнуты с сервера ${dbsVars.guild.name}.*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "куда надо",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "22FF00",
+          "title": "",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "✅ Успешно!",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Пользователь ${tempVars.mkik.displayName} кикнут",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "ава",
+      "actions": [
+        {
+          "name": "отметить",
+          "category": "Message",
+          "type": "if arguments are none",
+          "mes": "Вы должны отметить пользователя, аватарку которого, хотите увидеть!"
+        },
+        {
+          "name": "аваа",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "ava",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "аваааа",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**Аватарка <@${tempVars.ava.id}>!**",
+          "thumbnail": "",
+          "image": "${tempVars.ava.user.avatarURL}",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "хелп",
+      "perms": [],
+      "actions": [
+        {
+          "name": "кулдаун 5сек_1",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "3",
+          "msg1": "❌Подождите 3 секунды, прежде чем писать снова",
+          "msg2": ""
+        },
+        {
+          "name": "хелп меню",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "*FUN*",
+              "value": "`!драка [@user]` `!кошсундук` `!ава [@user]`",
+              "inline": "true"
+            },
+            {
+              "name": "*SERVICE*",
+              "value": "`!ранд [num] [num]`\n`!эмбед [text]`",
+              "inline": "true"
+            },
+            {
+              "name": "*MODERATION*",
+              "value": "`!жалоба [@user]` `!кик [@user]` `!бан [@user]` `!пред [@user]` `!сброспред [@user]` `!обнулить [@user]` `!добавить [@user] [num]`",
+              "inline": "false"
+            },
+            {
+              "name": "*IN-SERVER*",
+              "value": "`!баланс` `!перевод [@user]` `!ранг` ",
+              "inline": "true"
+            },
+            {
+              "name": "*MATH*",
+              "value": "`!посчитать [num] [sign] [num]`\n*Доступные знаки:* `* / + -`",
+              "inline": "true"
+            },
+            {
+              "name": "*OTHER*",
+              "value": "`!голосование [text]`",
+              "inline": "true"
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "*Команды для MARA*",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "https://cdn.discordapp.com/attachments/747765552927342624/781896243240501278/unnamed.jpg",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "баланс",
+      "perms": [],
+      "actions": [
+        {
+          "name": "изменить",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "bal",
+          "varname": "bal",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "инфо о бфлансе",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Вы имеете **${tempVars.bal}<a:currency:799841077036056576>** на своём кошельке!*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "перевод",
+      "perms": [],
+      "actions": [
+        {
+          "name": "сколько",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "perechis",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "2"
+        },
+        {
+          "name": "кому",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "usperech",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "изменить_1",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "bal",
+          "varname": "bal1",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "есть?",
+          "category": "User Data",
+          "type": "Check User Data",
+          "trueActions": [
+            {
+              "name": "убрать у перечислщ",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "bal",
+              "oper": "-",
+              "value": "${tempVars.perechis}"
+            },
+            {
+              "name": "добавить перечислителю",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${tempVars.usperech.id}",
+              "field": "bal",
+              "oper": "+",
+              "value": "${tempVars.perechis}"
+            },
+            {
+              "name": "успешно",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "00B825",
+              "title": "✅",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Переведено ${tempVars.perechis} <a:currency:799841077036056576> пользователю ${tempVars.usperech.displayName}.*\n\n`Сервер: ${dbsVars.guild.name}`\n",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Время",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "Успешно обнулено_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "00C414",
+              "title": "",
+              "url": "",
+              "authorname": "${dbsVars.CommandAuthor.displayName}",
+              "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "authorlink": "",
+              "description": "✅ Успешно!",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Баланс обнулён",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "нет",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "A30000",
+              "title": "❌",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*На вашем кошельке недостаточно средств для перевода.*\n\n`Сервер: ${dbsVars.guild.name}`",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Время",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "bal",
+          "compare": "greater than",
+          "value": "${tempVars.perechis}"
+        }
+      ]
+    },
+    {
+      "name": "добавить",
+      "perms": [
+        "🛠️",
+        "🔑",
+        "💸"
+      ],
+      "actions": [
+        {
+          "name": "кому?",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "addbaluser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "сколько?",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "addbalnumber",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "2"
+        },
+        {
+          "name": "больше 5000?",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "запр",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "8F0000",
+              "title": "❌",
+              "url": "",
+              "authorname": "${dbsVars.CommandAuthor.displayName}",
+              "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "authorlink": "",
+              "description": "Запрещено добавлять более 5000<a:currency:799841077036056576>!",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Время",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "добавить1",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${tempVars.addbaluser.id}",
+              "field": "bal",
+              "oper": "+",
+              "value": "${tempVars.addbalnumber}"
+            },
+            {
+              "name": "о выпол",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "00C900",
+              "title": "✅ Успешно",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Вы добавили ${tempVars.addbalnumber} <a:currency:799841077036056576> пользователю<@${tempVars.addbaluser.id}>!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "varname": "addbalnumber",
+          "savevartype": "temp",
+          "compare": "greater than",
+          "value": "5000"
+        }
+      ]
+    },
+    {
+      "name": "обнулить",
+      "perms": [
+        "🔑・владелец",
+        "🛠️・админ"
+      ],
+      "actions": [
+        {
+          "name": "гет мент.",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "0user",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "обнуление",
+          "category": "User Data",
+          "type": "Set User Data",
+          "user": "${tempVars.0user.id}",
+          "field": "bal",
+          "fieldvalue": "0"
+        },
+        {
+          "name": "Обнулено",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${tempVars.0user.user.dmChannel}",
+          "color": "114C8F",
+          "title": "🔁",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Ваш баланс на сервере ${dbsVars.guild.name} обнулён*\n\nАдмин: \n${dbsVars.CommandAuthor.displayName} (<@${dbsVars.CommandAuthor.id}>)",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил:${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "Успешно обнулено",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00C414",
+          "title": "",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "✅ Успешно!",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Баланс обнулён",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "пред",
+      "perms": [
+        "🔑",
+        "🛠️",
+        "🔮",
+        "⛑️"
+      ],
+      "actions": [
+        {
+          "name": "мент",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "mentpredus",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "не модер",
+          "category": "User Action",
+          "type": "Check User Permissions",
+          "trueActions": [
+            {
+              "name": "можно???????",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "B50000",
+              "title": "❌",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Вы не можете выдать предупреждение модерации!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "не админ",
+              "category": "User Action",
+              "type": "Check User Permissions",
+              "trueActions": [
+                {
+                  "name": "можно???????_1",
+                  "category": "Message",
+                  "type": "Send Embed",
+                  "channelname": "${dbsVars.CommandChannel.id}",
+                  "color": "AD0000",
+                  "title": "❌",
+                  "url": "",
+                  "authorname": "",
+                  "authorimageurl": "",
+                  "authorlink": "",
+                  "description": "*Вы не можете выдать предупреждение администрации!*",
+                  "thumbnail": "",
+                  "image": "",
+                  "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+                  "timestamp": "BOOL_TRUE@@",
+                  "savetovariable": "",
+                  "savetovariabletype": "temp"
+                }
+              ],
+              "falseActions": [
+                {
+                  "name": "+пред",
+                  "category": "User Data",
+                  "type": "Edit User Data",
+                  "user": "${tempVars.mentpredus.id}",
+                  "field": "pred",
+                  "oper": "+",
+                  "value": "1"
+                },
+                {
+                  "name": "+прд",
+                  "category": "Message",
+                  "type": "Send Embed",
+                  "channelname": "${dbsVars.CommandChannel.id}",
+                  "color": "00BF19",
+                  "title": "✅",
+                  "url": "https://discord.gg/XjaU6zRKpq",
+                  "authorname": "",
+                  "authorimageurl": "",
+                  "authorlink": "",
+                  "description": "*Предупреждение участнику <@${tempVars.mentpredus.id}> выдано успешно!*",
+                  "thumbnail": "",
+                  "image": "",
+                  "footer": "Время",
+                  "timestamp": "BOOL_TRUE@@",
+                  "savetovariable": "",
+                  "savetovariabletype": "temp"
+                },
+                {
+                  "name": "4?",
+                  "category": "User Data",
+                  "type": "Check User Data",
+                  "trueActions": [
+                    {
+                      "name": "+прд_1",
+                      "category": "Message",
+                      "type": "Send Embed",
+                      "channelname": "${dbsVars.CommandChannel.id}",
+                      "color": "990000",
+                      "title": "🚫",
+                      "url": "https://discord.gg/XjaU6zRKpq",
+                      "authorname": "",
+                      "authorimageurl": "",
+                      "authorlink": "",
+                      "description": "*Участник был изгнан с сервера, количество предупреждений достигло **4***",
+                      "thumbnail": "",
+                      "image": "",
+                      "footer": "Время",
+                      "timestamp": "BOOL_TRUE@@",
+                      "savetovariable": "",
+                      "savetovariabletype": "temp"
+                    },
+                    {
+                      "name": "Kick",
+                      "category": "User Action",
+                      "type": "Kick User",
+                      "user": "${tempVars.mentpredus.id}",
+                      "reason": "Пред: 4"
+                    }
+                  ],
+                  "falseActions": [],
+                  "user": "${tempVars.mentpredus.id}",
+                  "field": "pred",
+                  "compare": "equal to",
+                  "value": "4"
+                },
+                {
+                  "name": "4?_1",
+                  "category": "User Data",
+                  "type": "Check User Data",
+                  "trueActions": [
+                    {
+                      "name": "+прд_1_1",
+                      "category": "Message",
+                      "type": "Send Embed",
+                      "channelname": "${dbsVars.CommandChannel.id}",
+                      "color": "FF0000",
+                      "title": "🔨",
+                      "url": "https://discord.gg/XjaU6zRKpq",
+                      "authorname": "",
+                      "authorimageurl": "",
+                      "authorlink": "",
+                      "description": "*Участник был забанен на сервере, количество предупреждений достигло **7***",
+                      "thumbnail": "",
+                      "image": "",
+                      "footer": "Время",
+                      "timestamp": "BOOL_TRUE@@",
+                      "savetovariable": "",
+                      "savetovariabletype": "temp"
+                    },
+                    {
+                      "name": "Ban",
+                      "category": "User Action",
+                      "type": "Ban User",
+                      "user": "${tempVars.mentpredus.id}",
+                      "reason": "Пред: 7",
+                      "days": "10"
+                    },
+                    {
+                      "name": "SetTo0",
+                      "category": "User Data",
+                      "type": "Set User Data",
+                      "user": "${tempVars.mentpredus.id}",
+                      "field": "pred",
+                      "fieldvalue": "-"
+                    }
+                  ],
+                  "falseActions": [],
+                  "user": "${tempVars.mentpredus.id}",
+                  "field": "pred",
+                  "compare": "equal to",
+                  "value": "7"
+                }
+              ],
+              "user": "${tempVars.mentpredus.id}",
+              "permissions": [
+                "KICK_MEMBERS",
+                "MUTE_MEMBERS"
+              ]
+            }
+          ],
+          "user": "${tempVars.mentpredus.id}",
+          "permissions": [
+            "ADMINISTRATOR"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "преды",
+      "perms": [],
+      "actions": [
+        {
+          "name": "преды_1",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "pred",
+          "varname": "pred1",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "скокоо преды",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "*Количество предов участника*",
+          "url": "https://discord.gg/XjaU6zRKpq",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Вы имеете ${tempVars.pred1} предов!*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "ранг",
+      "perms": [],
+      "actions": [
+        {
+          "name": "уровень1",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "xp",
+          "varname": "xp",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "взять лвл_1",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "xplvl",
+          "varname": "xplvl",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "GetData",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "xpnum",
+          "varname": "xpnumb",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "уровень2",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "8F2B74",
+          "title": "*Ранг участника*",
+          "url": "https://discord.gg/XjaU6zRKpq",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "**XP: ${tempVars.xp}/${tempVars.xpnumb}**\n*Уровень: ${tempVars.xplvl}*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "сброспред",
+      "perms": [
+        "🔑",
+        "🛠️"
+      ],
+      "actions": [
+        {
+          "name": "кому сбр",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "sbrosuser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "сбросить преды",
+          "category": "User Data",
+          "type": "Set User Data",
+          "user": "${tempVars.sbrosuser.id}",
+          "field": "pred",
+          "fieldvalue": "0"
+        },
+        {
+          "name": "ок1",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00BD06",
+          "title": "✅ Успешно!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Все предупреждения участника <@${tempVars.sbrosuser.id}> были сброшены!*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "установить",
+      "perms": [
+        "🔑・владелец"
+      ],
+      "actions": [
+        {
+          "name": "установить активность",
+          "category": "Bot Action",
+          "type": "Set Bot Activity",
+          "activityname": "!хелп",
+          "activitytype": "STREAMING",
+          "streamurl": "https://discord.gg/XjaU6zRKpq"
+        }
+      ]
+    },
+    {
+      "name": "размьют",
+      "perms": [
+        "🔑・владелец",
+        "🛠️・админ",
+        "🔮・модератор"
+      ],
+      "actions": [
+        {
+          "name": "кулдаун 5сек_1_1_2",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "3",
+          "msg1": "❌Подождите 3 секунды, прежде чем писать снова",
+          "msg2": ""
+        },
+        {
+          "name": "кго мут",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "unmuteuser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "убрмут_1",
+          "category": "User Action",
+          "type": "Remove Role From User",
+          "user": "${tempVars.unmuteuser.id}",
+          "rolename": "791178786326315039",
+          "reason": "Reasoned user: ${dbsVars.CommandAuthor.displayName}"
+        },
+        {
+          "name": "Мьют_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00CC0E",
+          "title": "✅ Успешно!",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "*Вы размьютили <@${tempVars.unmuteuser.id}>* .",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "Мьют_2",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${tempVars.muteuser.user.dmChannel}",
+          "color": "7A7A7A",
+          "title": "🔊",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Вы были размьючены на сервере ${dbsVars.guild.name}.*\n\nМодератор: ${dbsVars.CommandAuthor.displayName} (<@${dbsVars.CommandAuthor.id}>)\n\n`Прочтите правила, перед началом общения`",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "мьют",
+      "perms": [
+        "🔮・модератор",
+        "🛠️・админ",
+        "🔑・владелец"
+      ],
+      "actions": [
+        {
+          "name": "кулдаун 5сек_1_1",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "3",
+          "msg1": "❌Подождите 3 секунды, прежде чем писать снова",
+          "msg2": ""
+        },
+        {
+          "name": "кго мут_1",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "muteuser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "мьютролль_1",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.muteuser.id}",
+          "rolename": "791178786326315039"
+        },
+        {
+          "name": "Мьют",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${tempVars.muteuser.user.dmChannel}",
+          "color": "8F2B74",
+          "title": "🔇",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Вы были замьючены на сервере ${dbsVars.guild.name}.*\n\nМодератор: ${dbsVars.CommandAuthor.displayName} (<@${dbsVars.CommandAuthor.id}>)",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "Мьют_1_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00CC0E",
+          "title": "✅ Успешно!",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "*Вы замьютили <@${tempVars.muteuser.id}>* .",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "эмбед",
+      "perms": [],
+      "actions": [
+        {
+          "name": "кулдаун 5сек_1_1_1",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "3",
+          "msg1": "❌Подождите 3 секунды, прежде чем писать снова",
+          "msg2": ""
+        },
+        {
+          "name": "взятьэмб",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "usembed",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "эмбедмес",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "0000FF",
+          "title": "",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "https://discord.gg/XjaU6zRKpq",
+          "description": "${tempVars.usembed}",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "сбросуровня",
+      "perms": [
+        "🔑",
+        "🛠️"
+      ],
+      "actions": [
+        {
+          "name": "укогоа",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "sbroslvluser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "сбросить",
+          "category": "User Data",
+          "type": "Set User Data",
+          "user": "${tempVars.sbroslvluser.id}",
+          "field": "xp",
+          "fieldvalue": "0"
+        },
+        {
+          "name": "сбросить_1",
+          "category": "User Data",
+          "type": "Set User Data",
+          "user": "${tempVars.sbroslvluser.id}",
+          "field": "xplvl",
+          "fieldvalue": "0"
+        },
+        {
+          "name": "Set0Num",
+          "category": "User Data",
+          "type": "Set User Data",
+          "user": "${tempVars.sbroslvluser.id}",
+          "field": "xpnum",
+          "fieldvalue": "100"
+        },
+        {
+          "name": "ембед",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00C41A",
+          "title": "✅ Успешно!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Уровень <@${tempVars.sbroslvluser.id}> установлен на 0*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "добавитьур",
+      "perms": [
+        "🔑",
+        "🛠️"
+      ],
+      "actions": [
+        {
+          "name": "rjve",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "xpuserplus",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "скококо",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "numberxpplus",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "2"
+        },
+        {
+          "name": "прибавить",
+          "category": "User Data",
+          "type": "Edit User Data",
+          "user": "${tempVars.xpuserplus.id}",
+          "field": "xp",
+          "oper": "+",
+          "value": "${tempVars.numberxpplus}"
+        },
+        {
+          "name": "прибавлено",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00FF1A",
+          "title": "✅ Успешно!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*<@${tempVars.xpuserplus.id}> было добавлено ${tempVars.numberxpplus} XP!*\n",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "ивентадмин",
+      "perms": [
+        "🔑・владелец"
+      ],
+      "actions": [
+        {
+          "name": "объянение",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "*Токийский гуль*",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Привет! Ты на ивенте в стиле Токийского Гуля!*\n\n**Описание ролей!**\n*<@&796570263977197578> - роль гуля (должен поедать людей). Задача гулей - съесть всех голубей.\n\n<@&796593547205410847> - роль голубя (охотника на гулей). Задача голубей - истребить всех гулей.*\n\n`Выбор проводится радомно, нажми на реакцию и получишь свою роль (доступ к этому каналу будет потерян)!`",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "mesrand",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "да",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "🩸": [
+              {
+                "name": "генрэйт",
+                "category": "Variable",
+                "type": "Generate Random Number",
+                "varname": "rasrghoulgol",
+                "min": "1",
+                "max": "2",
+                "savevartype": "temp"
+              },
+              {
+                "name": "рандом",
+                "category": "Variable",
+                "type": "Check Variable Value",
+                "trueActions": [
+                  {
+                    "name": "hjkm uekz",
+                    "category": "User Action",
+                    "type": "Add Role to User",
+                    "user": "${tempVars.ghouluser.id}",
+                    "rolename": "796570263977197578"
+                  },
+                  {
+                    "name": "гуль",
+                    "category": "Message",
+                    "type": "Send Embed",
+                    "channelname": "796601960337375232",
+                    "color": "FF0000",
+                    "title": "🩸",
+                    "url": "",
+                    "authorname": "",
+                    "authorimageurl": "",
+                    "authorlink": "",
+                    "description": "*<@${tempVars.ghouluser.id}>, теперь ты гуль! Не забудь прочитать правила перед началом игры.`",
+                    "thumbnail": "",
+                    "image": "",
+                    "footer": "",
+                    "timestamp": "false",
+                    "savetovariable": "",
+                    "savetovariabletype": "temp"
+                  },
+                  {
+                    "name": "djcgjkybnm",
+                    "category": "User Data",
+                    "type": "Set User Data",
+                    "user": "${tempVars.ghouluser.id}",
+                    "field": "telo",
+                    "fieldvalue": "10"
+                  }
+                ],
+                "falseActions": [
+                  {
+                    "name": "hjkm uekz_1",
+                    "category": "User Action",
+                    "type": "Add Role to User",
+                    "user": "${tempVars.ghouluser.id}",
+                    "rolename": "796593547205410847"
+                  },
+                  {
+                    "name": "гуль_1",
+                    "category": "Message",
+                    "type": "Send Embed",
+                    "channelname": "796602081137786881",
+                    "color": "09FF00",
+                    "title": "🕵",
+                    "url": "",
+                    "authorname": "",
+                    "authorimageurl": "",
+                    "authorlink": "",
+                    "description": "*<@${tempVars.ghouluser.id}> теперь вы агент CCG! Не забудьте прочитать правила, перед началом игры!*",
+                    "thumbnail": "",
+                    "image": "",
+                    "footer": "",
+                    "timestamp": "false",
+                    "savetovariable": "",
+                    "savetovariabletype": "temp"
+                  },
+                  {
+                    "name": "djcgjkybnm_1",
+                    "category": "User Data",
+                    "type": "Set User Data",
+                    "user": "${tempVars.ghouluser.id}",
+                    "field": "telo",
+                    "fieldvalue": "10"
+                  }
+                ],
+                "varname": "rasrghoulgol",
+                "savevartype": "temp",
+                "compare": "equal to",
+                "value": "1"
+              }
+            ]
+          },
+          "message": "${tempVars.mesrand.id}",
+          "duration": "0",
+          "reactionemoji": "ghoulemoji",
+          "reactionuser": "ghouluser",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "откусить",
+      "perms": [
+        "🩸・гуль"
+      ],
+      "actions": [
+        {
+          "name": "кулдаун 5ч",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "18000",
+          "msg1": "❌| Команду можно использовать только 1 раз в **5 часов**!",
+          "msg2": ""
+        },
+        {
+          "name": "взять",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "ghouleat",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "рандом намб",
+          "category": "Variable",
+          "type": "Generate Random Number",
+          "varname": "ghouleator",
+          "min": "1",
+          "max": "2",
+          "savevartype": "temp"
+        },
+        {
+          "name": "генерат",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "месс о откусывании",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "**Поедание!**",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*<@${dbsVars.CommandAuthor.id}> откусил кусочек <@${tempVars.ghouleat.id}> 😈!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "+1 команде гулей",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "солько откусил?",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${tempVars.ghouleat.id}",
+              "field": "telo",
+              "oper": "-",
+              "value": "1"
+            },
+            {
+              "name": "сколько частей?_1",
+              "category": "User Data",
+              "type": "Get User Data",
+              "user": "${tempVars.ghouleat.id}",
+              "field": "telo",
+              "varname": "telo",
+              "savevartype": "temp",
+              "vartype": "User"
+            },
+            {
+              "name": "эмбед голубям",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "796602081137786881",
+              "color": "A32727",
+              "title": "🩸",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**Гуль откусил кусочек от <@${tempVars.oxotaUser.id} !**\n\n*Частей тела: **${tempVars.telo}**/8*\n*Вылечитесь, командой `!!лечение`*<@${tempVars.oxotaUser.id}>",
+              "thumbnail": "",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "меньше 1?_1",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "Проигрыш_1",
+                  "category": "Message",
+                  "type": "Send Embed",
+                  "channelname": "${tempVars.ghouleat.user.dmChannel}",
+                  "color": "FF0000",
+                  "title": "❌ Вы проиграли!",
+                  "url": "",
+                  "authorname": "",
+                  "authorimageurl": "",
+                  "authorlink": "",
+                  "description": "Вы потеряли все конечности, а значит умерли. Вам выдана роль \"Участник игры | Season 3🩸\".\n**Удачи в следующий раз!**",
+                  "thumbnail": "",
+                  "image": "",
+                  "footer": "",
+                  "timestamp": "false",
+                  "savetovariable": "",
+                  "savetovariabletype": "temp"
+                },
+                {
+                  "name": "убрать ссг_1",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.ghouleat.id}",
+                  "rolename": "796593547205410847",
+                  "reason": "Lose war"
+                },
+                {
+                  "name": "добавить сезон 3_1",
+                  "category": "User Action",
+                  "type": "Add Role to User",
+                  "user": "${tempVars.ghouleat.id}",
+                  "rolename": "799868009618341889"
+                }
+              ],
+              "falseActions": [],
+              "user": "${tempVars.ghouleat.id}",
+              "field": "telo",
+              "compare": "less than",
+              "value": "1"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "месс о откусывании_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "**Откусить не получилось**",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Вы не смогли откусить кусок от <@${tempVars.ghouleat.id}> ! Но вы также не получили ранений!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "varname": "ghouleator",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "name": "моетело",
+      "actions": [
+        {
+          "name": "сколько частей?",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "telo",
+          "varname": "telo1",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "месс о количестве",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FFFFFF",
+          "title": "*Ваше тело*",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Целых частей тела: **${tempVars.telo1}**/10\n\n*Регенерируйтесь командой `!лечение` (`!регенерация`)*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "лечение",
+      "perms": [
+        "🩸・гуль",
+        "🕵️・агент ccg"
+      ],
+      "actions": [
+        {
+          "name": "более 10?_1",
+          "category": "User Data",
+          "type": "Check User Data",
+          "trueActions": [
+            {
+              "name": "невозможно, 9-10",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "AD0000",
+              "title": "❌",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**<@${dbsVars.CommandAuthor.id}>, лечение провести невозможно. У вас более 8 конечностей.** \n`Для лечения нужно иметь менее 9 конечностей`",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Время",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "кулдаун",
+              "category": "Message",
+              "type": "Command Cooldown",
+              "seconds": "18000",
+              "msg1": "❌| Вы можете лечиться, только 1 раз в 5 часов",
+              "msg2": ""
+            },
+            {
+              "name": "убрать роль",
+              "category": "User Action",
+              "type": "Remove Role From User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "796593547205410847",
+              "reason": "Происходит лечение"
+            },
+            {
+              "name": "добавить",
+              "category": "User Action",
+              "type": "Add Role to User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "797025037894287402"
+            },
+            {
+              "name": "znj",
+              "category": "Bot Action",
+              "type": "Edited Wait",
+              "seconds": "60"
+            },
+            {
+              "name": "сообщение об ожидании",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "38C73C",
+              "title": "✅",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*<@${dbsVars.CommandAuthor.id}>, ожидайте 60 секунд. В это время у вас не будет доступа к каналам.*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "убрать роль_1",
+              "category": "User Action",
+              "type": "Remove Role From User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "797025037894287402",
+              "reason": "Окончание лечения"
+            },
+            {
+              "name": "добавить_1",
+              "category": "User Action",
+              "type": "Add Role to User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "796593547205410847"
+            },
+            {
+              "name": "+2 кум",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "telo",
+              "oper": "+",
+              "value": "2"
+            },
+            {
+              "name": "+2 кон",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "00B81E",
+              "title": "✅",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Ваше лечение проведено успешно!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "+2 куксочка тела",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "более 10?",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "SetTo10",
+                  "category": "User Data",
+                  "type": "Set User Data",
+                  "user": "${dbsVars.CommandAuthor.id}",
+                  "field": "telo",
+                  "fieldvalue": "10"
+                }
+              ],
+              "falseActions": [],
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "telo",
+              "compare": "greater than",
+              "value": "10"
+            }
+          ],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "telo",
+          "compare": "greater than",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "name": "связь",
+      "actions": [
+        {
+          "name": "только в связи",
+          "category": "Channel Action",
+          "type": "Check Channel ID",
+          "channelid": "800607757790347274",
+          "nomatch": "Вы можете использовать команду *`!!связь`* только в <#755119970781757633>!"
+        },
+        {
+          "name": "ReasonSv",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "ReasonOpen",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "Связь",
+          "category": "Channel Action",
+          "type": "Author Only Channel",
+          "chname": "Связь"
+        },
+        {
+          "name": "удалит 1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "channelname": "800607757790347274",
+          "msgcount": "1"
+        },
+        {
+          "name": "PingAdmin",
+          "category": "Message",
+          "type": "Send Message",
+          "channelname": "795876387180642324",
+          "messagetext": "<@&801454222087422002>",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "SendAdmin",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.guild.systemChannelID}",
+          "color": "FF0A54",
+          "title": "*Открыт канал для технической поддержки*",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Причина открытия:* ${tempVars.ReasonOpen}\n\n**Пользователь, открывший канал: <@${dbsVars.CommandAuthor.id}>**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "убить",
+      "perms": [
+        "🕵️・агент ccg",
+        "🩸・гуль"
+      ],
+      "actions": [
+        {
+          "name": "кулдаун 5ч_1",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "86400",
+          "msg1": "❌| Команду можно использовать только 1 раз в **24 часа**!",
+          "msg2": ""
+        },
+        {
+          "name": "на кого?",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "napadenieUS",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "нападение",
+          "category": "Variable",
+          "type": "Generate Random Number",
+          "varname": "napadenie",
+          "min": "1",
+          "max": "10",
+          "savevartype": "temp"
+        },
+        {
+          "name": "Checker",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "Нет",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "❌",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*<@${dbsVars.CommandAuthor.id}>, вы не смогли выдержать схватку и потеряли 5 конечностей.*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "-5 у голубя_1",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "telo",
+              "oper": "-",
+              "value": "3"
+            },
+            {
+              "name": "меньше 1?_3",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "Проигрыш_3",
+                  "category": "Message",
+                  "type": "Send Embed",
+                  "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+                  "color": "FF0000",
+                  "title": "❌ Вы проиграли!",
+                  "url": "",
+                  "authorname": "",
+                  "authorimageurl": "",
+                  "authorlink": "",
+                  "description": "Вы потеряли все конечности, а значит умерли. Вам выдана роль \"Участник игры | Season 3🩸\".\n**Удачи в следующий раз!**",
+                  "thumbnail": "",
+                  "image": "",
+                  "footer": "",
+                  "timestamp": "false",
+                  "savetovariable": "",
+                  "savetovariabletype": "temp"
+                },
+                {
+                  "name": "убрать ссг_4",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.napadenieUS.id}",
+                  "rolename": "796593547205410847",
+                  "reason": "Lose war"
+                },
+                {
+                  "name": "убрать ссг_2_2",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.napadenieUS.id}",
+                  "rolename": "796570263977197578",
+                  "reason": "Lose war"
+                },
+                {
+                  "name": "добавить сезон 3_3",
+                  "category": "User Action",
+                  "type": "Add Role to User",
+                  "user": "${tempVars.napadenieUS.id}",
+                  "rolename": "799868009618341889"
+                }
+              ],
+              "falseActions": [],
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "telo",
+              "compare": "less than",
+              "value": "1"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "Нет_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "008F18",
+              "title": "🩸",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Вы одержали победу над <@${tempVars.napadenieUS.id}>!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "+5 очков ",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "d kc голубю",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${tempVars.napadenieUS.user.dmChannel}",
+              "color": "FF0000",
+              "title": "🩸",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**На вас смертельно напали и откусили 5 кусков!**\n\n`Команда !лечение (!регенерация), чтобы вылечиться`",
+              "thumbnail": "",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "-5 у голубя",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${tempVars.napadenieUS.id}",
+              "field": "telo",
+              "oper": "-",
+              "value": "5"
+            },
+            {
+              "name": "меньше 1?",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "Проигрыш",
+                  "category": "Message",
+                  "type": "Send Embed",
+                  "channelname": "${tempVars.napadenieUS.user.dmChannel}",
+                  "color": "FF0000",
+                  "title": "❌ Вы проиграли!",
+                  "url": "",
+                  "authorname": "",
+                  "authorimageurl": "",
+                  "authorlink": "",
+                  "description": "Вы потеряли все конечности, а значит умерли. Вам выдана роль \"Участник игры | Season 3🩸\".\n**Удачи в следующий раз!**",
+                  "thumbnail": "",
+                  "image": "",
+                  "footer": "",
+                  "timestamp": "false",
+                  "savetovariable": "",
+                  "savetovariabletype": "temp"
+                },
+                {
+                  "name": "убрать ссг",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.napadenieUS.id}",
+                  "rolename": "796593547205410847",
+                  "reason": "Lose war"
+                },
+                {
+                  "name": "убрать ссг_2",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.napadenieUS.id}",
+                  "rolename": "796570263977197578",
+                  "reason": "Lose war"
+                },
+                {
+                  "name": "добавить сезон 3",
+                  "category": "User Action",
+                  "type": "Add Role to User",
+                  "user": "${tempVars.napadenieUS.id}",
+                  "rolename": "799868009618341889"
+                }
+              ],
+              "falseActions": [],
+              "user": "${tempVars.napadenieUS.id}",
+              "field": "telo",
+              "compare": "less than",
+              "value": "1"
+            }
+          ],
+          "varname": "napadenie",
+          "savevartype": "temp",
+          "compare": "less than",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "name": "регенерация",
+      "perms": [
+        "🩸・гуль"
+      ],
+      "actions": [
+        {
+          "name": "более 10?_1_1",
+          "category": "User Data",
+          "type": "Check User Data",
+          "trueActions": [
+            {
+              "name": "невозможно, 9-10_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "AD0000",
+              "title": "❌",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "**<@${dbsVars.CommandAuthor.id}>, лечение провести невозможно. У вас более 8 конечностей.** \n`Для лечения нужно иметь менее 9 конечностей`",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Время",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "кулдаун_1",
+              "category": "Message",
+              "type": "Command Cooldown",
+              "seconds": "18000",
+              "msg1": "❌| Вы можете лечиться, только 1 раз в 5 часов",
+              "msg2": ""
+            },
+            {
+              "name": "убрать роль_2",
+              "category": "User Action",
+              "type": "Remove Role From User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "796570263977197578",
+              "reason": "Происходит лечение"
+            },
+            {
+              "name": "добавить_2",
+              "category": "User Action",
+              "type": "Add Role to User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "797025037894287402"
+            },
+            {
+              "name": "znj_1",
+              "category": "Bot Action",
+              "type": "Edited Wait",
+              "seconds": "60"
+            },
+            {
+              "name": "сообщение об ожидании_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "38C73C",
+              "title": "✅",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*<@${dbsVars.CommandAuthor.id}>, ожидайте 60 секунд. В это время у вас не будет доступа к каналам.*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "убрать роль_1_1",
+              "category": "User Action",
+              "type": "Remove Role From User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "797025037894287402",
+              "reason": "Окончание лечения"
+            },
+            {
+              "name": "добавить_1_1",
+              "category": "User Action",
+              "type": "Add Role to User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "796570263977197578"
+            },
+            {
+              "name": "+2 кум_1",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "telo",
+              "oper": "+",
+              "value": "2"
+            },
+            {
+              "name": "+2 кон_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "00B81E",
+              "title": "✅",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Ваша регенерация проведена успешно!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "+2 куксочка тела",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "более 10?_2",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "SetTo10_1",
+                  "category": "User Data",
+                  "type": "Set User Data",
+                  "user": "${dbsVars.CommandAuthor.id}",
+                  "field": "telo",
+                  "fieldvalue": "10"
+                }
+              ],
+              "falseActions": [],
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "telo",
+              "compare": "greater than",
+              "value": "10"
+            }
+          ],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "telo",
+          "compare": "greater than",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "name": "бан",
+      "perms": [
+        "🔮",
+        "🛠️",
+        "🔑"
+      ],
+      "actions": [
+        {
+          "name": "кого бан",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "banUser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "DayBan",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "2"
+        },
+        {
+          "name": "CheckBan",
+          "category": "User Action",
+          "type": "Check User Permissions",
+          "trueActions": [
+            {
+              "name": "Бан ок",
+              "category": "User Action",
+              "type": "Ban User",
+              "user": "${tempVars.banUser.id}",
+              "reason": "",
+              "days": "${tempVars.DayBan}"
+            },
+            {
+              "name": "куда надо_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "22FF00",
+              "title": "",
+              "url": "",
+              "authorname": "${dbsVars.CommandAuthor.displayName}",
+              "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "authorlink": "",
+              "description": "✅ Успешно!",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Пользователь ${tempVars.banUser.displayName} забанен",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [],
+          "user": "${tempVars.banUser.id}",
+          "permissions": [
+            "BAN_MEMBERS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "охота",
+      "perms": [
+        "🕵️・агент ccg"
+      ],
+      "actions": [
+        {
+          "name": "кулдаун_2",
+          "category": "Message",
+          "type": "Command Cooldown",
+          "seconds": "18000",
+          "msg1": "❌| Вы можете охотиться, только 1 раз в 5 часов",
+          "msg2": ""
+        },
+        {
+          "name": "ЦрщИгь",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "oxotaUser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "RandNum",
+          "category": "Variable",
+          "type": "Generate Random Number",
+          "varname": "randomNumOxota",
+          "min": "1",
+          "max": "3",
+          "savevartype": "temp"
+        },
+        {
+          "name": "1Or2",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "месс о откусывании_1_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "**Отрубить не получилось**",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Вы не смогли отрубить кусок от <@${tempVars.oxotaUser.id}> ! Но вы также не получили ранений!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Запросил: ${dbsVars.CommandAuthor.displayName}",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "Yes_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "16A800",
+              "title": "✅",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Вы отрубили часть тела у <@${tempVars.oxotaUser.id}>!*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "-1FromMentUser",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${tempVars.oxotaUser.id}",
+              "field": "telo",
+              "oper": "-",
+              "value": "1"
+            },
+            {
+              "name": "сколько частей?_1_1",
+              "category": "User Data",
+              "type": "Get User Data",
+              "user": "${tempVars.oxotaUser.id}",
+              "field": "telo",
+              "varname": "telo1",
+              "savevartype": "temp",
+              "vartype": "User"
+            },
+            {
+              "name": "MessToGhoul",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "796601960337375232",
+              "color": "C70000",
+              "title": "🩸",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "*Агент CCG охотился на <@${dbsVars.CommandAuthor.id}> и отрубил 1 кусок тела!*\n\nЦелых частей тела: **${tempVars.telo1}**/10\n\n*`Регенерируйтесь командой !регенерация`*",
+              "thumbnail": "",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "меньше 1?_2",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "Проигрыш_2",
+                  "category": "Message",
+                  "type": "Send Embed",
+                  "channelname": "${tempVars.oxotaUser.user.dmChannel}",
+                  "color": "FF0000",
+                  "title": "❌ Вы проиграли!",
+                  "url": "",
+                  "authorname": "",
+                  "authorimageurl": "",
+                  "authorlink": "",
+                  "description": "Вы потеряли все конечности, а значит умерли. Вам выдана роль \"Участник игры | Season 3🩸\".\n**Удачи в следующий раз!**",
+                  "thumbnail": "",
+                  "image": "",
+                  "footer": "",
+                  "timestamp": "false",
+                  "savetovariable": "",
+                  "savetovariabletype": "temp"
+                },
+                {
+                  "name": "убрать ссг_3",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.oxotaUser.id}",
+                  "rolename": "796593547205410847",
+                  "reason": "Lose war"
+                },
+                {
+                  "name": "убрать ссг_2_1",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.oxotaUser.id}",
+                  "rolename": "796570263977197578",
+                  "reason": "Lose war"
+                },
+                {
+                  "name": "добавить сезон 3_2",
+                  "category": "User Action",
+                  "type": "Add Role to User",
+                  "user": "${tempVars.oxotaUser.id}",
+                  "rolename": "799868009618341889"
+                }
+              ],
+              "falseActions": [],
+              "user": "${tempVars.oxotaUser.id}",
+              "field": "telo",
+              "compare": "less than",
+              "value": "1"
+            }
+          ],
+          "varname": "randomNumOxota",
+          "savevartype": "temp",
+          "compare": "less than",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "name": "админ",
+      "perms": [
+        "🔑"
+      ],
+      "actions": [
+        {
+          "name": "Message",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00FF1A",
+          "title": "*Магазин за валюту на сервере*",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "`                                      `\n*<@&799959941791088660> - 500<a:currency:799841077036056576>*\n```\n                      Преимущества                ⁣\n```\n*- Вы можете добавлять себе по 20<a:currency:799841077036056576> на свой бизнес-счёт, с помощью команды *`!бизнес+`* 1 раз в 5 часов. Без лишних затрат.\n\n-Управление никнеймами.\n\n-Вам разрешается открыть свой бизнес. Например: продажа смены никнейма, роль в вашем канале (если у вас есть роль PREMIUM) и тд. \n\nПримечание: перед открытием бизнеса, обязательно оповестите администрацию для проверки!*\n\n`Для покупки нажмите на реакцию \"💸\"`",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "MesReact",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "AddReact_2",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "💸": [
+              {
+                "name": "CheckBal",
+                "category": "User Data",
+                "type": "Check User Data",
+                "trueActions": [],
+                "falseActions": [
+                  {
+                    "name": "-500",
+                    "category": "User Data",
+                    "type": "Edit User Data",
+                    "user": "${tempVars.UserShopA.id}",
+                    "field": "bal",
+                    "oper": "-",
+                    "value": "500"
+                  },
+                  {
+                    "name": "AddRole",
+                    "category": "User Action",
+                    "type": "Add Role to User",
+                    "user": "${tempVars.UserShopA.id}",
+                    "rolename": "799959941791088660"
+                  },
+                  {
+                    "name": "AddRole_1",
+                    "category": "User Action",
+                    "type": "Add Role to User",
+                    "user": "${tempVars.UserShopA.id}",
+                    "rolename": "800292286491000863"
+                  },
+                  {
+                    "name": "Yes",
+                    "category": "Message",
+                    "type": "Send Embed",
+                    "channelname": "${tempVars.UserShopA.user.dmChannel}",
+                    "color": "00D41C",
+                    "title": "✅",
+                    "url": "",
+                    "authorname": "",
+                    "authorimageurl": "",
+                    "authorlink": "",
+                    "description": "**Успешно!**\n\nВы приобрели роль \"Бизнесмен\" на сервере ${dbsVars.guild.name}.",
+                    "thumbnail": "",
+                    "image": "",
+                    "footer": "",
+                    "timestamp": "false",
+                    "savetovariable": "",
+                    "savetovariabletype": "temp"
+                  }
+                ],
+                "user": "${tempVars.UserShopA.id}",
+                "field": "bal",
+                "compare": "less than",
+                "value": "500"
+              }
+            ]
+          },
+          "message": "${tempVars.MesReact.id}",
+          "duration": "0",
+          "reactionemoji": "EmojiShopA",
+          "reactionuser": "UserShopA",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "vrfyadmin",
+      "perms": [
+        "🔑"
+      ],
+      "actions": [
+        {
+          "name": "Верификация",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "784054534284116008",
+          "color": "00AD0C",
+          "title": "*Приветствую на сервере!*",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**Для продолжения, нажми на галочку снизу!**\n\n`Верификация нужна для того, чтобы убедиться, что вы не спам-бот`",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "VrfyMess",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "AddReact_1_1_1",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "✅": [
+              {
+                "name": "верифицирован_1_1",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${tempVars.VrfyUser.id}",
+                "rolename": "783985144847269908"
+              },
+              {
+                "name": "Set01_1",
+                "category": "User Data",
+                "type": "Set User Data",
+                "user": "${tempVars.VrfyUser.id}",
+                "field": "xp",
+                "fieldvalue": "0"
+              },
+              {
+                "name": "Set01_1_1",
+                "category": "User Data",
+                "type": "Set User Data",
+                "user": "${tempVars.VrfyUser.id}",
+                "field": "xplvl",
+                "fieldvalue": "0"
+              },
+              {
+                "name": "Set01_1_1_1",
+                "category": "User Data",
+                "type": "Set User Data",
+                "user": "${tempVars.VrfyUser.id}",
+                "field": "pred",
+                "fieldvalue": "0"
+              },
+              {
+                "name": "Set0ToBusiness",
+                "category": "User Data",
+                "type": "Set User Data",
+                "user": "${tempVars.VrfyUser.id}",
+                "field": "busbal",
+                "fieldvalue": "0"
+              },
+              {
+                "name": "Set0Num_1",
+                "category": "User Data",
+                "type": "Set User Data",
+                "user": "${tempVars.VrfyUser.id}",
+                "field": "xpnum",
+                "fieldvalue": "100"
+              }
+            ]
+          },
+          "message": "${tempVars.VrfyMess.id}",
+          "duration": "0",
+          "reactionemoji": "VrfyEmoji",
+          "reactionuser": "VrfyUser",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "бизнес+",
+      "perms": [
+        "💸"
+      ],
+      "actions": [
+        {
+          "name": "+20CommandAuthor",
+          "category": "User Data",
+          "type": "Edit User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "busbal",
+          "oper": "+",
+          "value": "20"
+        },
+        {
+          "name": "SendDone",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00B330",
+          "title": "💸",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*На ваш бизнес-счёт было добавлено 20 <a:currency:799841077036056576>*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "бизнес",
+      "perms": [
+        "💸"
+      ],
+      "actions": [
+        {
+          "name": "biznec",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "busbal",
+          "varname": "buziness",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "DoneMess",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "19BD00",
+          "title": "💸",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*На вашем бизнес-счету есть ${tempVars.buziness} <a:currency:799841077036056576>*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Время",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "посчитать",
+      "perms": [],
+      "actions": [
+        {
+          "name": "CheckArgs",
+          "category": "Message",
+          "type": "if arguments are none",
+          "mes": "Команда введена неправильно! Проверьте правильность написания.\n```\nПример: 12 * 7\n```"
+        },
+        {
+          "name": "NUM",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "NumMath1",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "1"
+        },
+        {
+          "name": "NUM_1",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "SignMath",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "2"
+        },
+        {
+          "name": "NUM_2",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "NumMath2",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "3"
+        },
+        {
+          "name": "ifSign",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "mult",
+              "category": "Variable",
+              "type": "Edit Variable",
+              "varname": "NumMath1",
+              "savevartype": "temp",
+              "oper": "x",
+              "value": "${tempVars.NumMath2}"
+            },
+            {
+              "name": "Mess",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "8F2B74",
+              "title": "*Деление*",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "Результат: ${tempVars.NumMath1}",
+              "thumbnail": "",
+              "image": "",
+              "footer": "Время",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "ifSign_1",
+              "category": "Variable",
+              "type": "Check Variable Value",
+              "trueActions": [
+                {
+                  "name": "mult_1",
+                  "category": "Variable",
+                  "type": "Edit Variable",
+                  "varname": "NumMath1",
+                  "savevartype": "temp",
+                  "oper": "x",
+                  "value": "${tempVars.NumMath2}"
+                },
+                {
+                  "name": "Mess_1",
+                  "category": "Message",
+                  "type": "Send Embed",
+                  "channelname": "${dbsVars.CommandChannel.id}",
+                  "color": "8F2B74",
+                  "title": "*Умножение*",
+                  "url": "",
+                  "authorname": "",
+                  "authorimageurl": "",
+                  "authorlink": "",
+                  "description": "Результат: ${tempVars.NumMath1}",
+                  "thumbnail": "",
+                  "image": "",
+                  "footer": "Время",
+                  "timestamp": "BOOL_TRUE@@",
+                  "savetovariable": "",
+                  "savetovariabletype": "temp"
+                }
+              ],
+              "falseActions": [
+                {
+                  "name": "ifSign_1_1",
+                  "category": "Variable",
+                  "type": "Check Variable Value",
+                  "trueActions": [
+                    {
+                      "name": "mult_1_1",
+                      "category": "Variable",
+                      "type": "Edit Variable",
+                      "varname": "NumMath1",
+                      "savevartype": "temp",
+                      "oper": "-",
+                      "value": "${tempVars.NumMath2}"
+                    },
+                    {
+                      "name": "Mess_1_1",
+                      "category": "Message",
+                      "type": "Send Embed",
+                      "channelname": "${dbsVars.CommandChannel.id}",
+                      "color": "8F2B74",
+                      "title": "*Вычитание*",
+                      "url": "",
+                      "authorname": "",
+                      "authorimageurl": "",
+                      "authorlink": "",
+                      "description": "Результат: ${tempVars.NumMath1}",
+                      "thumbnail": "",
+                      "image": "",
+                      "footer": "Время",
+                      "timestamp": "BOOL_TRUE@@",
+                      "savetovariable": "",
+                      "savetovariabletype": "temp"
+                    }
+                  ],
+                  "falseActions": [
+                    {
+                      "name": "ifSign_1_1_1",
+                      "category": "Variable",
+                      "type": "Check Variable Value",
+                      "trueActions": [
+                        {
+                          "name": "mult_1_1_1",
+                          "category": "Variable",
+                          "type": "Edit Variable",
+                          "varname": "NumMath1",
+                          "savevartype": "temp",
+                          "oper": "+",
+                          "value": "${tempVars.NumMath2}"
+                        },
+                        {
+                          "name": "Mess_1_1_1",
+                          "category": "Message",
+                          "type": "Send Embed",
+                          "channelname": "${dbsVars.CommandChannel.id}",
+                          "color": "8F2B74",
+                          "title": "*Сложение*",
+                          "url": "",
+                          "authorname": "",
+                          "authorimageurl": "",
+                          "authorlink": "",
+                          "description": "Результат: ${tempVars.NumMath1}",
+                          "thumbnail": "",
+                          "image": "",
+                          "footer": "Время",
+                          "timestamp": "BOOL_TRUE@@",
+                          "savetovariable": "",
+                          "savetovariabletype": "temp"
+                        }
+                      ],
+                      "falseActions": [
+                        {
+                          "name": "NoneMathSign",
+                          "category": "Message",
+                          "type": "Send Embed",
+                          "channelname": "${dbsVars.CommandChannel.id}",
+                          "color": "A60000",
+                          "title": "❌",
+                          "url": "",
+                          "authorname": "",
+                          "authorimageurl": "",
+                          "authorlink": "",
+                          "description": "**Комманда введена неправильно.**\n*Отсутствует или неверный математический знак*\n\nДоступные знаки: \n`* - умножение\n/ - деление\n+ - прибавление\n- _ вычитание`\n```\nПример команды: 12 * 14\n```\n",
+                          "thumbnail": "",
+                          "image": "",
+                          "footer": "",
+                          "timestamp": "false",
+                          "savetovariable": "",
+                          "savetovariabletype": "temp"
+                        }
+                      ],
+                      "varname": "SignMath",
+                      "savevartype": "temp",
+                      "compare": "equal to",
+                      "value": "+"
+                    }
+                  ],
+                  "varname": "SignMath",
+                  "savevartype": "temp",
+                  "compare": "equal to",
+                  "value": "-"
+                }
+              ],
+              "varname": "SignMath",
+              "savevartype": "temp",
+              "compare": "equal to",
+              "value": "*"
+            }
+          ],
+          "varname": "SignMath",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "/"
+        }
+      ]
+    },
+    {
+      "name": "roleA",
+      "perms": [
+        "🔑"
+      ],
+      "actions": [
+        {
+          "name": "SendRoleMsg",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "747786581024440351",
+          "color": "8F2B74",
+          "title": "*Выбор платформы*",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "<@&747801584095854653> - получите, нажав на \"🎮\" ниже.\n\n<@&747801598994022531> - получите, нажав на \"🕹\" ниже.\n\n<@&747801614710079600> - получите, нажав на \"💻\" ниже,\n\n<@&747801605889327235> - получите, нажав на \"🌀\" ниже.\n\n**Для очистки ролей платформы, нажмите на \"❌\" ниже.**\n\n`После нажатия, вам будет выдана роль этой платформы. Эта роль будет отображаться в вашем профиле.`",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "RoleMsgA",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "AddReactA",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "🎮": [
+              {
+                "name": "AddRoleAPLAT",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${tempVars.UserRoleA.id}",
+                "rolename": "747801584095854653"
+              }
+            ],
+            "🕹": [
+              {
+                "name": "AddRoleAPLAT_1",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${tempVars.UserRoleA.id}",
+                "rolename": "747801598994022531"
+              }
+            ],
+            "💻": [
+              {
+                "name": "AddRoleAPLAT_2",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${tempVars.UserRoleA.id}",
+                "rolename": "747801614710079600"
+              }
+            ],
+            "🌀": [
+              {
+                "name": "AddRoleAPLAT_3",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${tempVars.UserRoleA.id}",
+                "rolename": "747801605889327235"
+              }
+            ],
+            "❌": [
+              {
+                "name": "RemoveRoleA",
+                "category": "User Action",
+                "type": "Remove Role From User",
+                "user": "${tempVars.UserRoleA.id}",
+                "rolename": "747801584095854653",
+                "reason": "ReactRole"
+              },
+              {
+                "name": "RemoveRoleA_1",
+                "category": "User Action",
+                "type": "Remove Role From User",
+                "user": "${tempVars.UserRoleA.id}",
+                "rolename": "747801598994022531",
+                "reason": "ReactRole"
+              },
+              {
+                "name": "RemoveRoleA_1_1",
+                "category": "User Action",
+                "type": "Remove Role From User",
+                "user": "${tempVars.UserRoleA.id}",
+                "rolename": "747801614710079600",
+                "reason": "ReactRole"
+              },
+              {
+                "name": "RemoveRoleA_1_1_1",
+                "category": "User Action",
+                "type": "Remove Role From User",
+                "user": "${tempVars.UserRoleA.id}",
+                "rolename": "747801605889327235",
+                "reason": "ReactRole"
+              }
+            ]
+          },
+          "message": "${tempVars.RoleMsgA.id}",
+          "duration": "0",
+          "reactionemoji": "RoleEmojiA",
+          "reactionuser": "UserRoleA",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "set",
+      "actions": [
+        {
+          "name": "Getm",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "setu",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "Set10",
+          "category": "User Data",
+          "type": "Set User Data",
+          "user": "${tempVars.setu.id}",
+          "field": "telo",
+          "fieldvalue": "10"
+        }
+      ]
+    }
+  ]
+}

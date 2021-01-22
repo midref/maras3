@@ -1,0 +1,329 @@
+{
+  "command": [
+    {
+      "name": "User Joins Server",
+      "perms": [],
+      "actions": [
+        {
+          "name": "d rfyfk ghbdt",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "747724799026921496",
+          "color": "FF00FB",
+          "title": "*Добро пожаловать на сервер!*",
+          "url": "https://discord.gg/9Pgb5PG",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**<@${tempVars.newuser.id}>, добро пожаловать на сервер ${dbsVars.guild.name}!**\n*На нашем сервере ты можешь:\n1. Найти себе команду\n2. Найти новых друзей\n3. Просто пообщаться с игроками твоих любимых игр!*\n\nНе забудь прочитать \n<#747746372949770321> перед началом общения, чтобы избежать наказания.\nМожешь ознакомиться с ролями и каналами в <#780624093048864778>\nПри желании можешь купить <@&747790749172760619> для больших возможностей!\n\n***Поздравляю, теперь ты один из участников нашего сервера!<:krytoi:775401138656116768>***",
+          "thumbnail": "",
+          "image": "https://i.playground.ru/i/pix/2817905/image.jpg",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "lbhtrn exfcnybre",
+          "category": "Message",
+          "type": "Send Direct Message",
+          "user": "${tempVars.newuser.id}",
+          "messagetext": "**Спасибо, что зашёл на ${dbsVars.guild.name}!**\n*Ознакомься с информацией и правилами, а также будь активным, чтобы получать новый уровень!*\n\n***УДАЧИ!***",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "0+",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.newuser.id}",
+          "rolename": "👌・0+"
+        },
+        {
+          "name": "категория",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.msguser.id}",
+          "rolename": "⁣      👤┆Профиль┆👤        ⁣"
+        },
+        {
+          "name": "категория_1",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.msguser.id}",
+          "rolename": "⁣      🏆┆Награды┆🏆     ⁣"
+        },
+        {
+          "name": "категория_1_1",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.msguser.id}",
+          "rolename": "⁣   💳┆Покупные роли┆💳  ⁣"
+        },
+        {
+          "name": "категория_1_1_1",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.msguser.id}",
+          "rolename": "⁣      🔮┆Ивент┆🔮       ⁣"
+        },
+        {
+          "name": "категория_1_1_1_1",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.msguser.id}",
+          "rolename": "⁣     📈┆Уровень┆📈     ⁣"
+        },
+        {
+          "name": "категория_1_1_1_1_1",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.msguser.id}",
+          "rolename": "⁣    🎮┆Платформа┆🎮    ⁣"
+        },
+        {
+          "name": "категория_1_1_1_1_1_1",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.msguser.id}",
+          "rolename": "⁣      🎲┆Игры┆🎲   ⁣"
+        },
+        {
+          "name": "категория_1_1_1_1_1_1_1",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "user": "${tempVars.msguser.id}",
+          "rolename": "⁣     ❓┆Верификация┆❓    ⁣"
+        }
+      ],
+      "var": {
+        "user": "newuser"
+      }
+    },
+    {
+      "name": "Any Message",
+      "perms": [],
+      "actions": [
+        {
+          "name": "уровень",
+          "category": "User Data",
+          "type": "Edit User Data",
+          "user": "${tempVars.msguser.id}",
+          "field": "xp",
+          "oper": "+",
+          "value": "2"
+        },
+        {
+          "name": "xpnum",
+          "category": "User Data",
+          "type": "Get User Data",
+          "user": "${tempVars.msguser.id}",
+          "field": "xpnum",
+          "varname": "xpnum",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "if 100",
+          "category": "User Data",
+          "type": "Check User Data",
+          "trueActions": [
+            {
+              "name": "Set0",
+              "category": "User Data",
+              "type": "Set User Data",
+              "user": "${tempVars.msguser.id}",
+              "field": "xp",
+              "fieldvalue": "0"
+            },
+            {
+              "name": "+1 xpLVl",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${tempVars.msguser.id}",
+              "field": "xplvl",
+              "oper": "+",
+              "value": "1"
+            },
+            {
+              "name": "+25",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "user": "${tempVars.msguser.id}",
+              "field": "xpnum",
+              "oper": "+",
+              "value": "25"
+            },
+            {
+              "name": "GetXpLvl",
+              "category": "User Data",
+              "type": "Get User Data",
+              "user": "${tempVars.msguser.id}",
+              "field": "xplvl",
+              "varname": "xplvl",
+              "savevartype": "temp",
+              "vartype": "User"
+            },
+            {
+              "name": "GetXpLvl_1",
+              "category": "User Data",
+              "type": "Get User Data",
+              "user": "${tempVars.msguser.id}",
+              "field": "xp",
+              "varname": "xp",
+              "savevartype": "temp",
+              "vartype": "User"
+            },
+            {
+              "name": "NeLvlMes",
+              "category": "Message",
+              "type": "Send Direct Message",
+              "user": "${tempVars.msguser.id}",
+              "messagetext": "**Новый уровень!**\n\n*Поздравляю! Ты достиг ${tempVars.xplvl}-ого уровня!*\n\nУровень: ${tempVars.xplvl}`",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "if 3_1_1_1",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "AddRole_1_1_1",
+                  "category": "User Action",
+                  "type": "Add Role to User",
+                  "user": "${tempVars.msguser.id}",
+                  "rolename": "765541800735408158"
+                },
+                {
+                  "name": "RemRole_1_1_1",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.msguser.id}",
+                  "rolename": "765541798163644476",
+                  "reason": "NewLvl"
+                }
+              ],
+              "falseActions": [],
+              "user": "${tempVars.msguser.id}",
+              "field": "xplvl",
+              "compare": "equal to",
+              "value": "10"
+            },
+            {
+              "name": "if 3_1_1",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "AddRole_1_1",
+                  "category": "User Action",
+                  "type": "Add Role to User",
+                  "user": "${tempVars.msguser.id}",
+                  "rolename": "765541798163644476"
+                },
+                {
+                  "name": "RemRole_1_1",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.msguser.id}",
+                  "rolename": "765541795035217952",
+                  "reason": "NewLvl"
+                }
+              ],
+              "falseActions": [],
+              "user": "${tempVars.msguser.id}",
+              "field": "xplvl",
+              "compare": "equal to",
+              "value": "8"
+            },
+            {
+              "name": "if 3_1",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "AddRole_1",
+                  "category": "User Action",
+                  "type": "Add Role to User",
+                  "user": "${tempVars.msguser.id}",
+                  "rolename": "765541795035217952"
+                },
+                {
+                  "name": "RemRole_1",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.msguser.id}",
+                  "rolename": "765541792682475550",
+                  "reason": "NewLvl"
+                }
+              ],
+              "falseActions": [],
+              "user": "${tempVars.msguser.id}",
+              "field": "xplvl",
+              "compare": "equal to",
+              "value": "5"
+            },
+            {
+              "name": "if 3",
+              "category": "User Data",
+              "type": "Check User Data",
+              "trueActions": [
+                {
+                  "name": "AddRole",
+                  "category": "User Action",
+                  "type": "Add Role to User",
+                  "user": "${tempVars.msguser.id}",
+                  "rolename": "765541792682475550"
+                },
+                {
+                  "name": "RemRole",
+                  "category": "User Action",
+                  "type": "Remove Role From User",
+                  "user": "${tempVars.msguser.id}",
+                  "rolename": "765541784960892938",
+                  "reason": "NewLvl"
+                }
+              ],
+              "falseActions": [],
+              "user": "${tempVars.msguser.id}",
+              "field": "xplvl",
+              "compare": "equal to",
+              "value": "3"
+            }
+          ],
+          "falseActions": [],
+          "user": "${tempVars.msguser.id}",
+          "field": "xp",
+          "compare": "greater than",
+          "value": "${tempVars.xpnum}"
+        }
+      ],
+      "var": {
+        "user": "msguser"
+      }
+    },
+    {
+      "name": "User Kicked",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "user": "kickuser"
+      }
+    },
+    {
+      "name": "User Banned",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "user": "banuser"
+      }
+    },
+    {
+      "name": "Bot Initialization",
+      "perms": [],
+      "actions": [],
+      "var": {}
+    }
+  ]
+}

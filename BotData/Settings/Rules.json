@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "obj": {
+    "warnEnabled": true,
+    "kickEnabled": false,
+    "banEnabled": false,
+    "maxInterval": 999000,
+    "maxDuplicatesInterval": 60000,
+    "warnMessage": "{@user}, хватит спамить! Так хочется получить мьют?",
+    "kickMessage": "",
+    "banMessage": "",
+    "warnThreshold": 8,
+    "kickThreshold": 999,
+    "banThreshold": 999,
+    "maxDuplicatesWarning": 8,
+    "maxDuplicatesKick": 999,
+    "maxDuplicatesBan": 999,
+    "debug": true
+  }
+}

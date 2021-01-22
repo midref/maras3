@@ -1,0 +1,1260 @@
+{
+  "nodes": [
+    {
+      "type": "event",
+      "name": "User Joins Server",
+      "guid": "49ebbc23-2903-4f05-ab69-bc9ecb4f067e",
+      "variables": {
+        "user": "newuser"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "a6ff6030-9cc1-40cd-b445-d91332e24b9d"
+          ]
+        }
+      ],
+      "x": 99,
+      "y": 100,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Any Message",
+      "guid": "49ebbc23-2903-4f05-ab69-bc9ecb4f8888",
+      "variables": {
+        "user": "msguser"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "9d4b2eb4-37f9-4e83-90d9-7d5f5cfcb77d"
+          ]
+        }
+      ],
+      "x": 94,
+      "y": 502,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "User Kicked",
+      "guid": "69ebbc23-2903-4f05-ab69-bc9ecb4f067e",
+      "variables": {
+        "user": "kickuser"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "x": 99,
+      "y": 250,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "User Banned",
+      "guid": "77ebbc23-2003-4f05-ab69-bc9ecb4f067e",
+      "variables": {
+        "user": "banuser"
+      },
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "x": 100,
+      "y": 375,
+      "perms": []
+    },
+    {
+      "type": "event",
+      "name": "Bot Initialization",
+      "guid": "0101bc23-2003-4f05-ab69-bc9ecb4f067e",
+      "variables": {},
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": []
+        }
+      ],
+      "x": 85,
+      "y": 596,
+      "perms": []
+    },
+    {
+      "type": "response",
+      "name": "уровень",
+      "guid": "9d4b2eb4-37f9-4e83-90d9-7d5f5cfcb77d",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "94ff0c93-83e8-4d2f-b1ff-b0454d232aef"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "49ebbc23-2903-4f05-ab69-bc9ecb4f8888"
+        }
+      ],
+      "x": 251,
+      "y": 501,
+      "rtype": "User Data",
+      "rsubtype": "Edit User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xp",
+        "+",
+        "2"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "oper",
+        "value"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "d rfyfk ghbdt",
+      "guid": "a6ff6030-9cc1-40cd-b445-d91332e24b9d",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "e25a52c3-16db-4a99-ab92-1cf904660c8b"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "49ebbc23-2903-4f05-ab69-bc9ecb4f067e"
+        }
+      ],
+      "x": 288,
+      "y": 93,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "747724799026921496",
+        "FF00FB",
+        "*Добро пожаловать на сервер!*",
+        "https://discord.gg/9Pgb5PG",
+        "",
+        "",
+        "",
+        "**<@${tempVars.newuser.id}>, добро пожаловать на сервер ${dbsVars.guild.name}!**\n*На нашем сервере ты можешь:\n1. Найти себе команду\n2. Найти новых друзей\n3. Просто пообщаться с игроками твоих любимых игр!*\n\nНе забудь прочитать \n<#747746372949770321> перед началом общения, чтобы избежать наказания.\nМожешь ознакомиться с ролями и каналами в <#780624093048864778>\nПри желании можешь купить <@&747790749172760619> для больших возможностей!\n\n***Поздравляю, теперь ты один из участников нашего сервера!<:krytoi:775401138656116768>***",
+        "",
+        "https://i.playground.ru/i/pix/2817905/image.jpg",
+        "",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "lbhtrn exfcnybre",
+      "guid": "e25a52c3-16db-4a99-ab92-1cf904660c8b",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "7ec27d21-8675-40eb-8368-2612520c3d39"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "a6ff6030-9cc1-40cd-b445-d91332e24b9d"
+        }
+      ],
+      "x": 485,
+      "y": 67,
+      "rtype": "Message",
+      "rsubtype": "Send Direct Message",
+      "formdata": [
+        "${tempVars.newuser.id}",
+        "**Спасибо, что зашёл на ${dbsVars.guild.name}!**\n*Ознакомься с информацией и правилами, а также будь активным, чтобы получать новый уровень!*\n\n***УДАЧИ!***",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "user",
+        "messageText",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "0+",
+      "guid": "7ec27d21-8675-40eb-8368-2612520c3d39",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "ca9726dc-265d-435f-bc85-428f6d88b6d2"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "e25a52c3-16db-4a99-ab92-1cf904660c8b"
+        }
+      ],
+      "x": 627,
+      "y": 89,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.newuser.id}",
+        "👌・0+"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "категория",
+      "guid": "ca9726dc-265d-435f-bc85-428f6d88b6d2",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "a4bf6962-5f4d-4a6e-bdba-858dcd23122e"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "7ec27d21-8675-40eb-8368-2612520c3d39"
+        }
+      ],
+      "x": 727,
+      "y": 90,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "⁣      👤┆Профиль┆👤        ⁣"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "категория_1",
+      "guid": "a4bf6962-5f4d-4a6e-bdba-858dcd23122e",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "17b196e4-8210-4166-8f59-4c8d3b5d4eb2"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "ca9726dc-265d-435f-bc85-428f6d88b6d2"
+        }
+      ],
+      "x": 815,
+      "y": 91,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "⁣      🏆┆Награды┆🏆     ⁣"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "категория_1_1",
+      "guid": "17b196e4-8210-4166-8f59-4c8d3b5d4eb2",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "8cf16191-6b25-4a78-93b8-2649e93a0b83"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "a4bf6962-5f4d-4a6e-bdba-858dcd23122e"
+        }
+      ],
+      "x": 927,
+      "y": 92,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "⁣   💳┆Покупные роли┆💳  ⁣"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "категория_1_1_1",
+      "guid": "8cf16191-6b25-4a78-93b8-2649e93a0b83",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "3b4ec93a-0f5d-4223-8405-fe052d8f2f6f"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "17b196e4-8210-4166-8f59-4c8d3b5d4eb2"
+        }
+      ],
+      "x": 1029,
+      "y": 87,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "⁣      🔮┆Ивент┆🔮       ⁣"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "категория_1_1_1_1",
+      "guid": "3b4ec93a-0f5d-4223-8405-fe052d8f2f6f",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "5afe01ef-39f3-4d49-a9f4-f8e8269bf074"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "8cf16191-6b25-4a78-93b8-2649e93a0b83"
+        }
+      ],
+      "x": 1120,
+      "y": 87,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "⁣     📈┆Уровень┆📈     ⁣"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "категория_1_1_1_1_1",
+      "guid": "5afe01ef-39f3-4d49-a9f4-f8e8269bf074",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "2b661f2c-093c-4f35-937a-887303e09345"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "3b4ec93a-0f5d-4223-8405-fe052d8f2f6f"
+        }
+      ],
+      "x": 1204,
+      "y": 88,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "⁣    🎮┆Платформа┆🎮    ⁣"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "категория_1_1_1_1_1_1",
+      "guid": "2b661f2c-093c-4f35-937a-887303e09345",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "6fbad013-0945-4e15-b44b-6296a02b371f"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "5afe01ef-39f3-4d49-a9f4-f8e8269bf074"
+        }
+      ],
+      "x": 1339,
+      "y": 89,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "⁣      🎲┆Игры┆🎲   ⁣"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "категория_1_1_1_1_1_1_1",
+      "guid": "6fbad013-0945-4e15-b44b-6296a02b371f",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "2b661f2c-093c-4f35-937a-887303e09345"
+        }
+      ],
+      "x": 1470,
+      "y": 91,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "⁣     ❓┆Верификация┆❓    ⁣"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "if 100",
+      "guid": "82842c1b-6eb1-46c5-b1c3-ac3d3f508d6d",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "true",
+          "connections": [
+            "a6283080-3965-4179-a64c-033cb96eb36e"
+          ]
+        },
+        {
+          "label": "false",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "94ff0c93-83e8-4d2f-b1ff-b0454d232aef"
+        }
+      ],
+      "x": 670,
+      "y": 498,
+      "rtype": "User Data",
+      "rsubtype": "Check User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xp",
+        "greater than",
+        "${tempVars.xpnum}"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "compare",
+        "value"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "Set0",
+      "guid": "a6283080-3965-4179-a64c-033cb96eb36e",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "03e89e8c-f5bd-4147-b9cd-9ece208af0a0"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "82842c1b-6eb1-46c5-b1c3-ac3d3f508d6d"
+        }
+      ],
+      "x": 823,
+      "y": 494,
+      "rtype": "User Data",
+      "rsubtype": "Set User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xp",
+        "0"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "fieldvalue"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "+1 xpLVl",
+      "guid": "03e89e8c-f5bd-4147-b9cd-9ece208af0a0",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "ecb16a5a-c0a7-477f-b111-0a872bb40262"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "a6283080-3965-4179-a64c-033cb96eb36e"
+        }
+      ],
+      "x": 938,
+      "y": 489,
+      "rtype": "User Data",
+      "rsubtype": "Edit User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xplvl",
+        "+",
+        "1"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "oper",
+        "value"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "GetXpLvl",
+      "guid": "e38e834d-bbc0-4061-8d2b-73344c55205d",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "xplvl",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "21fdd783-5e68-47b0-9b1c-50d4b78c5e5b"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "ecb16a5a-c0a7-477f-b111-0a872bb40262"
+        }
+      ],
+      "x": 1208,
+      "y": 487,
+      "rtype": "User Data",
+      "rsubtype": "Get User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xplvl",
+        "xplvl",
+        "temp",
+        "User"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "varname",
+        "saveVarType",
+        "vartype"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "GetXpLvl_1",
+      "guid": "21fdd783-5e68-47b0-9b1c-50d4b78c5e5b",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "xp",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "9fd1d6a0-7cb1-46d4-bc9e-646beb4eddc4"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "e38e834d-bbc0-4061-8d2b-73344c55205d"
+        }
+      ],
+      "x": 1208,
+      "y": 487,
+      "rtype": "User Data",
+      "rsubtype": "Get User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xp",
+        "xp",
+        "temp",
+        "User"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "varname",
+        "saveVarType",
+        "vartype"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "if 3",
+      "guid": "9216d550-36fc-415b-8251-aedc40525fe3",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "true",
+          "connections": [
+            "b8e107f5-2ee3-47d9-97ec-c085e06ba5a3"
+          ]
+        },
+        {
+          "label": "false",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "9fd1d6a0-7cb1-46d4-bc9e-646beb4eddc4"
+        }
+      ],
+      "x": 1521,
+      "y": 261,
+      "rtype": "User Data",
+      "rsubtype": "Check User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xplvl",
+        "equal to",
+        "3"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "compare",
+        "value"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "AddRole",
+      "guid": "b8e107f5-2ee3-47d9-97ec-c085e06ba5a3",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "01cca875-cfe2-44ae-a211-ea70be60e65d"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "9216d550-36fc-415b-8251-aedc40525fe3"
+        }
+      ],
+      "x": 1661,
+      "y": 256,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "765541792682475550"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "RemRole",
+      "guid": "01cca875-cfe2-44ae-a211-ea70be60e65d",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "b8e107f5-2ee3-47d9-97ec-c085e06ba5a3"
+        }
+      ],
+      "x": 1795,
+      "y": 250,
+      "rtype": "User Action",
+      "rsubtype": "Remove Role From User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "765541784960892938",
+        "NewLvl"
+      ],
+      "formnames": [
+        "user",
+        "roleName",
+        "reason"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "if 3_1",
+      "guid": "89e61e20-bb02-4c9b-ac5c-fe586c3c269c",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "true",
+          "connections": [
+            "9d3886ef-b7ee-4d18-b357-7823b027ff1f"
+          ]
+        },
+        {
+          "label": "false",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "9fd1d6a0-7cb1-46d4-bc9e-646beb4eddc4"
+        }
+      ],
+      "x": 1518,
+      "y": 348,
+      "rtype": "User Data",
+      "rsubtype": "Check User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xplvl",
+        "equal to",
+        "5"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "compare",
+        "value"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "AddRole_1",
+      "guid": "9d3886ef-b7ee-4d18-b357-7823b027ff1f",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "911f073a-8994-4cbf-822c-2cfa5e9ad1d3"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "89e61e20-bb02-4c9b-ac5c-fe586c3c269c"
+        }
+      ],
+      "x": 1657,
+      "y": 344,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "765541795035217952"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "RemRole_1",
+      "guid": "911f073a-8994-4cbf-822c-2cfa5e9ad1d3",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "9d3886ef-b7ee-4d18-b357-7823b027ff1f"
+        }
+      ],
+      "x": 1797,
+      "y": 340,
+      "rtype": "User Action",
+      "rsubtype": "Remove Role From User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "765541792682475550",
+        "NewLvl"
+      ],
+      "formnames": [
+        "user",
+        "roleName",
+        "reason"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "if 3_1_1",
+      "guid": "0ba57307-f2c2-4234-a703-0be1ab501aa9",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "true",
+          "connections": [
+            "dcc344e7-53c8-4729-bbfc-80bf18e68bab"
+          ]
+        },
+        {
+          "label": "false",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "9fd1d6a0-7cb1-46d4-bc9e-646beb4eddc4"
+        }
+      ],
+      "x": 1516,
+      "y": 436,
+      "rtype": "User Data",
+      "rsubtype": "Check User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xplvl",
+        "equal to",
+        "8"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "compare",
+        "value"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "AddRole_1_1",
+      "guid": "dcc344e7-53c8-4729-bbfc-80bf18e68bab",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "773a1395-1315-4052-a16e-3d7133c70433"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "0ba57307-f2c2-4234-a703-0be1ab501aa9"
+        }
+      ],
+      "x": 1658,
+      "y": 431,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "765541798163644476"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "RemRole_1_1",
+      "guid": "773a1395-1315-4052-a16e-3d7133c70433",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "dcc344e7-53c8-4729-bbfc-80bf18e68bab"
+        }
+      ],
+      "x": 1797,
+      "y": 430,
+      "rtype": "User Action",
+      "rsubtype": "Remove Role From User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "765541795035217952",
+        "NewLvl"
+      ],
+      "formnames": [
+        "user",
+        "roleName",
+        "reason"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "if 3_1_1_1",
+      "guid": "50c74783-e0c2-466e-b4bf-625e9fba1ce7",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "true",
+          "connections": [
+            "ed77d006-38d0-4530-973a-64307632ba64"
+          ]
+        },
+        {
+          "label": "false",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "9fd1d6a0-7cb1-46d4-bc9e-646beb4eddc4"
+        }
+      ],
+      "x": 1516,
+      "y": 501,
+      "rtype": "User Data",
+      "rsubtype": "Check User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xplvl",
+        "equal to",
+        "10"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "compare",
+        "value"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "AddRole_1_1_1",
+      "guid": "ed77d006-38d0-4530-973a-64307632ba64",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "6cc613a2-35fb-47e6-9db9-fab79707ac2d"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "50c74783-e0c2-466e-b4bf-625e9fba1ce7"
+        }
+      ],
+      "x": 1657,
+      "y": 498,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "765541800735408158"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "RemRole_1_1_1",
+      "guid": "6cc613a2-35fb-47e6-9db9-fab79707ac2d",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "ed77d006-38d0-4530-973a-64307632ba64"
+        }
+      ],
+      "x": 1799,
+      "y": 498,
+      "rtype": "User Action",
+      "rsubtype": "Remove Role From User",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "765541798163644476",
+        "NewLvl"
+      ],
+      "formnames": [
+        "user",
+        "roleName",
+        "reason"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "NeLvlMes",
+      "guid": "9fd1d6a0-7cb1-46d4-bc9e-646beb4eddc4",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "50c74783-e0c2-466e-b4bf-625e9fba1ce7",
+            "0ba57307-f2c2-4234-a703-0be1ab501aa9",
+            "89e61e20-bb02-4c9b-ac5c-fe586c3c269c",
+            "9216d550-36fc-415b-8251-aedc40525fe3"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "21fdd783-5e68-47b0-9b1c-50d4b78c5e5b"
+        }
+      ],
+      "x": 1355,
+      "y": 490,
+      "rtype": "Message",
+      "rsubtype": "Send Direct Message",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "**Новый уровень!**\n\n*Поздравляю! Ты достиг ${tempVars.xplvl}-ого уровня!*\n\nУровень: ${tempVars.xplvl}`",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "user",
+        "messageText",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "+25",
+      "guid": "ecb16a5a-c0a7-477f-b111-0a872bb40262",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "e38e834d-bbc0-4061-8d2b-73344c55205d"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "03e89e8c-f5bd-4147-b9cd-9ece208af0a0"
+        }
+      ],
+      "x": 1071,
+      "y": 489,
+      "rtype": "User Data",
+      "rsubtype": "Edit User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xpnum",
+        "+",
+        "25"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "oper",
+        "value"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "xpnum",
+      "guid": "94ff0c93-83e8-4d2f-b1ff-b0454d232aef",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "xpnum",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "82842c1b-6eb1-46c5-b1c3-ac3d3f508d6d"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "9d4b2eb4-37f9-4e83-90d9-7d5f5cfcb77d"
+        }
+      ],
+      "x": 514,
+      "y": 493,
+      "rtype": "User Data",
+      "rsubtype": "Get User Data",
+      "formdata": [
+        "${tempVars.msguser.id}",
+        "xpnum",
+        "xpnum",
+        "temp",
+        "User"
+      ],
+      "formnames": [
+        "user",
+        "field",
+        "varname",
+        "saveVarType",
+        "vartype"
+      ]
+    }
+  ]
+}
